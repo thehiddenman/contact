@@ -1,0 +1,140 @@
+@font-face{font-family:Poppins-Regular;src:url(fonts/Poppins-Regular.ttf)}
+@font-face{font-family:Poppins-Bold;src:url(fonts/Poppins-Bold.ttf)}
+@font-face{font-family:Poppins-Medium;src:url(fonts/Poppins-Medium.ttf)}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-contact100 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    /* background: linear-gradient(45deg,#00dbde,#fc00ff); */
+    background-color: #000;
+}
+
+.wrap-contact100 {
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 42px 55px 45px;
+}
+
+.contact100-form {
+    width: 100%;
+}
+
+.contact100-form-title {
+    display: block;
+    font-family: Poppins-Bold !important;
+    font-size: 39px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.thm_text {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Poppins-Medium';
+    line-height: 15px;
+}
+
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9;
+    padding-bottom: 13px;
+    margin-bottom: 27px;
+}
+
+.label-input100 {
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+    padding-left: 5px;
+}
+
+input.input100 {
+    height: 40px;
+}
+
+.input100 {
+    display: block;
+    width: 100%;
+    background: 0 0;
+    font-family: Poppins-Medium;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.2;
+    padding: 0 5px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+button, input {
+    overflow: visible;
+}
+
+textarea.input100 {
+    min-height: 110px;
+    padding-top: 9px;
+    padding-bottom: 13px;
+}
+
+textarea {
+    outline: none;
+    border: none;
+}
+
+.container-contact100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 13px;
+}
+
+.contact100-form-btn {
+    padding: 10px 80px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+
+.selection-2 {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: Poppins-Medium;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.2;
+    padding: 0 5px;
+    padding-top: 9px;
+}
+
+
+@media only screen and (max-width:575px) {
+    .wrap-contact100 {
+        padding: 30px 30px 30px;
+    }
+}
